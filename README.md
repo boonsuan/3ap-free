@@ -6,8 +6,8 @@ Let $\theta(n)$ be the number of permutations of $`\{1,\dots,n\}`$ with no
 $3$-term arithmetic progressions.
 This repo contains a formal proof in [Lean 4](https://lean-lang.org/) (using [mathlib](https://github.com/leanprover-community/mathlib4))
 for the nonexistence of $\lim_{n\to\infty}\theta(n)^{1/n}$, contingent on the correctness of
-1. Sharma's inequality $\theta(2k)\le21\theta(k)^2$ for $k\ge1$ (see Theorem 2.8 in A. Sharma, "Enumerating permutations that avoid 3-free permutations," _Electronic Journal of Combinatorics_ **16** (2009), 1–15), and
-2. the exact values $\theta(64)=39911512393313043466768$ and $\theta(75)=30235147387260979648843264$ (values can be found in Bill Correll, Jr. and Randy W. Ho, "A note on 3-free permutations," _INTEGERS_ **A17** (2017), #A55; see also OEIS [A003407](https://oeis.org/A003407/)).
+1. Sharma's inequality $\theta(2k)\le21\theta(k)^2$ for $k\ge1$ (see Theorem 2.8 in A. Sharma, ["Enumerating permutations that avoid 3-free permutations,"](https://doi.org/10.37236/152 ) _Electronic Journal of Combinatorics_ **16** (2009), 1–15), and
+2. the exact values $\theta(64)=39911512393313043466768$ and $\theta(75)=30235147387260979648843264$ (values can be found in Bill Correll, Jr. and Randy W. Ho, ["A note on 3-free permutations,"](https://math.colgate.edu/~integers/r55/r55.Abstract.html) _INTEGERS_ **A17** (2017), #A55; see also OEIS [A003407](https://oeis.org/A003407/)).
 
 
 The proof was formalized using Harmonic Aristotle, with errors corrected by GPT-5.3-Codex.
