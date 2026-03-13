@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the archived release."
+title: "Repository snapshot for 3AP-free permutations have no exponential growth rate"
+authors:
+  - family-names: "Ho"
+    given-names: "Boon Suan"
+repository-code: "https://github.com/boonsuan/3ap-free"
+url: "https://github.com/boonsuan/3ap-free"
+license: "MIT"
+version: "v1.0.0"
+date-released: 2026-03-13
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Ho"
+      given-names: "Boon Suan"
+  title: "3AP-free permutations have no exponential growth rate"
+  journal: "arXiv"
+  year: 2026
+  article-number: "arXiv:2602.13617"
+  doi: "10.48550/arXiv.2602.13617"
